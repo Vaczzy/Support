@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 cd ~
 echo "[visslsetup]:script version:0.1.2"
 echo "[visslsetup]:ADVICE:Create a new environment to excute this script"
