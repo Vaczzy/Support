@@ -8,14 +8,13 @@ read input
 control="y"
 if [ $input == $control ]
 then
-        
         set -e
         echo "[visslsetup]:check...."
         python -c 'import torch,cv2'
         set +e
 	echo "[visslsetup]:copy apex from source..."
         set -e
-	git clone --recursive https://www.github.com/nvidia/apex
+	git clone --recursive https://www.github.com/NVIDIA/apex
         set +e
         echo "[visslsetup]:done!"
         echo "[visslsetup]:copy vissl from source"
